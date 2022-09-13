@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.ul-list-container {
+  list-style-type: none;
+  max-width: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 6px;
+}

@@ -1,0 +1,21 @@
+.li-container {
+  width: 140px;
+  height: 140px;
+  background-color: #ffffff33;
+  border: solid 1px #ffffff30;
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.btn-emoji {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+}
+.emoji-resize {
+  width: 100px;
+}
